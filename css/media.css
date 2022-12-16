@@ -1,0 +1,269 @@
+
+@media (max-width: 1200px){
+    .about_inner{
+        padding: 0 5px;
+    }
+}
+
+@media (max-width: 1160px){
+    .services_items{
+        display: block;
+    }
+
+    .services_item{
+        max-width: 80%;
+        margin: 30px auto;
+        min-height: 330px;
+    }
+
+    .services_top, .form_title-box {
+        max-width: 90%;
+        margin: 0px auto 40px;
+    }
+
+    .form_inner{
+        background-image: none;
+    }
+
+    .form_box-inner{
+        justify-content: center;
+        padding-left: 55px;
+    }
+
+    .form_box-right{
+        max-width: 500px;
+        padding-left: 35px;
+    }
+    
+    .news_inner{
+        display: block;
+    }
+
+    .news_slider{
+        max-width: 100%;
+        margin-bottom: 95px;
+    }
+
+    .news_slider-inner .slick-btn {
+        bottom: -115px;
+    }
+
+    .news_blog{
+        display: block;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .news_blog::after{
+        content: "";
+        clear: both;
+        display: block;
+    }
+
+    .news_img{
+        float: left;
+        margin-right: 50px;
+    }
+
+    .news {
+        padding: 55px 0px 39px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .footer_inner{
+        display: block;
+    }
+
+    .footer_map{
+        margin-top: 25px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 900px){
+    .form_box-inner{
+        padding-right: 55px;
+    }
+}
+
+@media (max-width: 850px){
+    .services_title-box, 
+    .form_title-box, 
+    .news_title-box{
+        padding-left: 0;
+        text-align: center;
+        margin: 0 auto 30px;
+    }
+
+    .services_title-box::before, 
+    .form_title-box::before,
+    .news_title-box::before{
+        display: none;
+    }
+    
+    .form{
+        padding: 25px 0;
+    }
+
+    .form_box{
+        padding-top: 0;
+    }
+
+    .form_box-inner{
+        display: block;
+        padding: 0;
+    }
+
+    .form_box-left{
+        max-width: 100%;
+    }
+
+    .form_box-right{
+        max-width: 100%;
+        margin-left: 0;
+        padding-left: 0px;
+    }
+
+    .form_box-inner .jq-selectbox_select{
+        margin-bottom: 10px;
+    }
+
+    .advanteges_inner{
+        display: block;
+    }
+
+    .advanteges-item{
+        max-width: 100%;
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 710px) {
+    .header_btn{
+        float: none;
+    }
+
+    .header_btn::before{
+        display: none;
+    }
+
+    .footer_info .header_btn::before{
+        display: block;
+    }
+
+    .header_contacts{
+        text-align: center;
+    }
+
+    .header_btn-menu{
+        display: block;
+    }
+
+    .menu ul{
+        display: none;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-top: 20px;
+        z-index: 5;
+    }
+
+    .menu li{
+        display: block;
+        text-align: center;
+    }
+
+    .menu a{
+        display: block;
+        background-color: rgb(205, 171, 32);
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .menu li+li {
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 780px){
+    .slider .slick-btn{
+        display: none !important;
+    }
+}
+
+@media (max-width: 430px){
+    .slider_title{
+        font-size: 24px;
+    }
+
+    .slider_text{
+        font-size: 16px;
+    }
+
+    .default-btn {
+        line-height: 14px;
+    }
+
+    .advanteges-item{
+        padding: 8px;
+    }
+}
+
+@media (max-width: 500px) {
+    .news_slider{
+        padding: 50px 15px 25px 25px;
+    }
+
+    .news_slider-inner .slick-prev {
+        right: 50px;
+    }
+
+    .news_slider-inner .slick-next {
+        right: -15px;
+    }
+
+    .news_slider-inner .slick-btn {
+        bottom: -90px;
+    }
+
+    .news_slider::before {
+        left: 25px;
+    }
+
+    .news_img {
+        float: none;
+    }
+}
+
+@media (max-width: 400px) {
+    .header_btn::before{
+        display: block;
+    }
+
+    .header_phone{
+        padding-right: 0px;
+    }
+
+
+}
+
+@media (max-width: 375px) {
+    .header_btn::before{
+        display: block;
+    }
+
+    .header_phone{
+        padding-right: 8px;
+    }
+
+
+}
+
+
+
+@media (min-width: 710px){
+    .menu ul{
+        display: block !important;
+    }
+}

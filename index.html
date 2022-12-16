@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_top">
+            <div class="container">
+                <div class="header_contacts">
+                    <a class="header_phone" href="tel:375293202020">+375 (29) 320 20 20</a>
+                    <a class="header_email" href="#">corellium@gmail.com</a>
+                    <a data-fancybox data-src="#modal" href="javascript:;" class="header_btn" href="#">Бесплатная
+                        консультация</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="header_content">
+            <div class="container">
+                <div class="header_content-inner">
+                    <!-- inner - для обертки -->
+                    <div class="header_logo">
+                        <a href="#">
+                            <img src="img/logo.png" alt="" height="36px" width="100px">
+                        </a>
+                    </div>
+
+                    <nav class="menu">
+                        <div class="header_btn-menu">
+                            <span class="icon-bars"></span>
+                        </div>
+                        <ul>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#about">О салоне</a></li>
+                            <li><a href="#services">Услуги</a></li>
+                            <li><a href="#contacts">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <section class="slider">
+        <div class="container">
+            <div class="slider_inner">
+                <div class="slider_item">
+                    <div class="slider_item-content">
+                        <div class="slider_title">
+                            Подарочные сертификаты для ваших близких
+                        </div>
+                        <div class="slider_text">
+                            Успейте приобрести в октябре со скидкой 20%
+                        </div>
+                        <a data-fancybox data-src="#modal" href="javascript:;" class="slider_btn default-btn">
+                            Подробнее
+                        </a>
+                    </div>
+                </div>
+
+                <div class="slider_item">
+                    <div class="slider_item-content">
+                        <div class="slider_title">
+                            Мы открылись!
+                        </div>
+                        <div class="slider_text">
+                            Скидка при первом посещении 10%! 
+                            При записи сразу на несколько процедур Вас ждет прятный подарок
+                        </div>
+                        <a data-fancybox data-src="#modal" href="javascript:;" class="slider_btn default-btn">
+                            Подробнее
+                        </a>
+                    </div>
+                </div>
+
+                <div class="slider_item">
+                    <div class="slider_item-content">
+                        <div class="slider_title">
+                            Салон красоты Corellium
+                        </div>
+                        <div class="slider_text">
+                            Мы делаем свою работу так, чтобы Вы радовались жизни!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="services_top">
+                <div class="services_title-box">
+                    <div class="services_title">
+                        Услуги
+                    </div>
+                    <div class="services_text">
+                        Увидеть и подчеркнуть Вашу индивидуальность — наша миссия.
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="services_items">
+                <div class="services_item">
+                    <img src="img/services-1.png" alt="">
+                    <div class="services_item-title">
+                        Макияж
+                    </div>
+                    <div class="services_item-text">
+                        Дневной
+                        <p></p>
+                        Вечерний
+                        <p></p>
+                        Свадебный
+                    </div>
+                    <div class="services_item-btn">
+                        <a data-fancybox data-src="#modal" href="javascript:;" class="default-btn">
+                            Консультация
+                        </a>
+                    </div>
+                </div>
+
+                <div class="services_item">
+                    <img src="img/services-2.png" alt="">
+                    <div class="services_item-title">
+                        Стилистика
+                    </div>
+                    <div class="services_item-text">
+                        Колористика
+                        <p></p>
+                        Уходовые процедуры
+                        <p></p>
+                        Стрижки и укладки
+                    </div>
+                    <div class="services_item-btn">
+                        <a data-fancybox data-src="#modal" href="javascript:;" class="default-btn">
+                            Консультация
+                        </a>
+                    </div>
+                </div>
+
+                <div class="services_item">
+                    <img src="img/services-3.png" alt="">
+                    <div class="services_item-title">
+                        Ногтевой сервис
+                    </div>
+                    <div class="services_item-text">
+                        Маникюр
+                        <p>
+                        Педикюр
+                        <p>
+                        Спа уход
+                    </div>
+                    <div class="services_item-btn">
+                        <!-- <a class="services_item-link" href="#">More</a> -->
+                        <a data-fancybox data-src="#modal" href="javascript:;" class="default-btn">
+                            Консультация
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about_inner">
+                <div class="about_title">
+                    О салоне
+                </div>
+                <div class="about_text">
+                    Когда пришла идея создания этого проекта, я сразу понимала, это будет не просто салон красоты в обычном его понимании и значении.
+                    Хотелось создать, именно «создать», место и атмосферу для души человека, где можно получить не только услуги по внешнему преображению, сделать классические процедуры красоты. Но и отдохнуть, испытать чувство наполнения энергией, на некоторое время отложить все дела и заботы, восстановить внутренние ресурсы.
+                    <br>
+                    Мы не делаем людей красивее, мы показываем им насколько они красивы.
+                    Для нас красота это баланс между внутренним и внешним миром.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="form">
+        <div class="container">
+            <div class="form_inner">
+                <div class="form_content">
+                    <div class="form_title-box">
+                        <div class="form_title">
+                            Запись на услугу
+                        </div>
+                        <div class="form_text">
+                            Заполните форму и наш кансультант перезвонит Вам для подтверждения записи
+                        </div>
+                    </div>
+
+                    <div class="form_box">
+                        <form action="add_records.php" method="post">
+                            <div class="form_box-inner">
+                                <div class="form_box-left">
+                                    <label>
+                                        E-mail
+                                        <input type="text" name="email">
+                                    </label>
+                                    <label>
+                                        Телефон*
+                                        <input type="text" name="phone" required>
+                                    </label>
+                                    <label>
+                                        ФИО*
+                                        <input type="text" name="fio" required>
+                                    </label>
+                                    <label>
+                                        Услуга*
+                                        <select name="select_servise">
+                                            <option></option>
+                                            <option value="Макияж">Макияж</option>
+                                            <option value="Стилистика">Стилистика</option>
+                                            <option value="Ногтевой сервис">Ногтевой сервис</option>
+                                        </select>
+                                    </label>
+                                </div>
+
+                                <div class="form_box-right">
+                                    <label>
+                                        Пожелания
+                                        <textarea name="message"></textarea>
+                                    </label>
+                                    <button type="submit" class="default-btn">Оставить заявку</button>
+
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="advanteges">
+        <div class="container">
+            <div class="advanteges_inner">
+                <div class="advanteges-item">
+                    <div class="advanteges_title">
+                        Индивидульный подход
+                    </div>
+                    <div class="advanteges_text">
+                        Каждый клиент становится центром вселенной мастера и получает максимум внимания
+                    </div>
+                </div>
+
+                <div class="advanteges-item">
+                    <div class="advanteges_title">
+                        Профессиональные мастера
+                    </div>
+                    <div class="advanteges_text">
+                        Только лучшие из лучших, мастера с опытом работы более 10 лет и множеством сертификатов, подтверждающих мастерство
+                    </div>
+                </div>
+
+                <div class="advanteges-item">
+                    <div class="advanteges_title">
+                        Бонусы и скидки
+                    </div>
+                    <div class="advanteges_text">
+                        Подарки при первом посещении и скидочные карты для постоянных клиентов
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="news">
+        <div class="container">
+            <div class="news_top">
+                <div class="news_title-box">
+                    <div class="news_title">
+                        Наши новости
+                    </div>
+                    <div class="news_text"> 
+                        Актуальная информация о бонусах и скидках, статьи по уходу
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="news_inner">
+                <div class="news_slider">
+                    <div class="news_slider-inner">
+                        <div class="news_slide-item">
+                            <div class="news_slide-title">
+                                Закомство с масером -15%
+                            </div>
+                            <div class="news_slide-text">
+                                Знакомим с нашими мастерами и дарим скидку 15% на первое посещение!
+                            </div>
+                            <div class="news_slide-author">
+                                Подробные условия акции уточняйте по телефону или у администратора в салоне
+                            </div>
+                        </div>
+
+                        <div class="news_slide-item">
+                            <div class="news_slide-title">
+                                Скидки на день рождения -20%
+                            </div>
+                            <div class="news_slide-text">
+                                В день рождения и три дня до и после него мы дарим именинникам скидку 20%!
+                            </div>
+                            <div class="news_slide-author">
+                                Подробные условия акции уточняйте по телефону или у администратора в салоне
+                            </div>
+                        </div>
+
+                        <div class="news_slide-item">
+                            <div class="news_slide-title">
+                                -5% на все абонименты до конца ноября 2022 года
+                            </div>
+                            <div class="news_slide-text">
+                                Количество абониментов ограничено
+                            </div>
+                            <div class="news_slide-author">
+                                Подробные условия акции уточняйте по телефону или у администратора в салоне
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="#" class="news_blog">
+                    <div class="news_img">
+                        <img src="img/news-1.jpg" alt="">
+                        <div class="news_date">03.04</div>
+                    </div>
+                    <div class="news_blog-title">
+                        Уход за кожей
+                    </div>
+                    <div class="news_blog-text">
+                        Массаж лица может снять напряжение, тонизировать мышцы, улучшить лимфоток и позволит косметическим средствам более глубоко проникнуть в кожу.
+                    </div>
+                </a>
+                <a href="#" class="news_blog">
+                    <div class="news_img">
+                        <img src="img/news-2.jpg" alt="">
+                        <div class="news_date">03.04</div>
+                    </div>
+                    <div class="news_blog-title">
+                        Чего следует опасаться
+                    </div>
+                    <div class="news_blog-text">
+                        Если косметический продукт сильно пахнет – это не значит, что он работает. На самом деле сильный спиртовой аромат, означает лишь, что он содержит спирт, ингредиент, который серьезно сушит кожу. Кроме того, если запах не встречается в природе – это показатель того, что ваш косметический продукт содержит аллерген.
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contacts">
+        <div class="footer_main">
+            <div class="container">
+                <div class="footer_inner">
+                    <div class="footer_info">
+                        <div class="footer_title">
+                            Салон красоты Corellium
+                        </div>
+
+                        <div class="footer_text">
+                            Легко найти, сложно потерять
+                        </div>
+
+                        <a data-fancybox data-src="#modal" href="javascript:;" class="header_btn" href="#">
+                            Бесплатная консультация
+                        </a>
+
+                        <ul class="footer_list">
+                            <li><a class="footer_phone" href="tel:375223334455">+375 22 333 44 55</a></li>
+                            <li><a href="#">corellium@gmail.com</a></li>
+                            <li><a class="footer_adress" href="#">Минск, ул. Николы Тесла, 43</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer_map">
+                        <iframe height="250px"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2352.6711592010797!2d27.552850715808702!3d53.86649518009126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbd033968bd9a1%3A0x29d468580ce9eff2!2z0YPQuy4g0J3QuNC60L7Qu9GLINCi0LXRgdC70YssINCc0LjQvdGB0Lo!5e0!3m2!1sru!2sby!4v1666791416900!5m2!1sru!2sby"
+                            style="border:0;" allowfullscreen="" loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer_additionally">
+            <div class="container">
+                <div class="additionally_text">
+                    © 2022 Yepihova Anastasia
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="modal">
+        <form action="send.php" method="post">
+            <input type="text" name="name" placeholder="Ваше имя">
+            <input type="text" name="number" placeholder="Ваш телефон">
+            <input type="submit" name="send_btn">
+        </form>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.formstyler.min.js"></script>
+    <script src="index.php"></script>
+    <script src="word/word.php"></script>
+    <script src="js/mail.js"></script>
+</body>
+
+</html>
