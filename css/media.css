@@ -139,6 +139,12 @@
     }
 }
 
+@media (max-width: 780px){
+    .slider .slick-btn{
+        display: none !important;
+    }
+}
+
 @media (max-width: 710px) {
     .header_btn{
         float: none;
@@ -184,31 +190,13 @@
     .menu li+li {
         padding-left: 0px;
     }
-}
 
-@media (max-width: 780px){
-    .slider .slick-btn{
-        display: none !important;
+    #modalUpdate {
+        padding: 0px 20px;
+        width: 300px;
     }
 }
 
-@media (max-width: 430px){
-    .slider_title{
-        font-size: 24px;
-    }
-
-    .slider_text{
-        font-size: 16px;
-    }
-
-    .default-btn {
-        line-height: 14px;
-    }
-
-    .advanteges-item{
-        padding: 8px;
-    }
-}
 
 @media (max-width: 500px) {
     .news_slider{
@@ -236,6 +224,24 @@
     }
 }
 
+@media (max-width: 430px){
+    .slider_title{
+        font-size: 24px;
+    }
+
+    .slider_text{
+        font-size: 16px;
+    }
+
+    .default-btn {
+        line-height: 14px;
+    }
+
+    .advanteges-item{
+        padding: 8px;
+    }
+}
+
 @media (max-width: 400px) {
     .header_btn::before{
         display: block;
@@ -245,7 +251,15 @@
         padding-right: 0px;
     }
 
+    #modalUpdate {
+        padding: 0px 10px;
+        width: 200px;
+        font-size: 14px;
+    }
 
+    #modalUpdate h4{
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 375px) {

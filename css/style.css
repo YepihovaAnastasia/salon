@@ -42,7 +42,8 @@ header {
     background-color: #262626;
 }
 
-.header_btn {
+.header_btn,
+.header_btnAdmin {
     float: right;
     line-height: 36px;
     color: #000000;
@@ -51,6 +52,11 @@ header {
     font-style: 16px;
     display: block;
     position: relative;
+}
+
+.header_btnAdmin {
+    padding: 5px 20px;
+    font-weight: 700;
 }
 
 .header_btn::before {
@@ -109,6 +115,7 @@ header {
 .header_content-inner {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header_logo img {
@@ -143,7 +150,7 @@ header {
     padding-left: 10px;
 }
 
-#modal {
+#modal{
     display: none;
 }
 
@@ -257,7 +264,8 @@ header {
 }
 
 .services_top,
-.news_top {
+.news_top,
+.admin_panel {
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
@@ -806,11 +814,12 @@ header {
     font-family: 'Roboto', sans-serif;
 }
 
-#modal {
+#modal{
     width: 300px;
 }
 
-#modal input {
+#modal input,
+#modalUpdate input {
     display: block;
     width: 100%;
     margin-bottom: 20px;
@@ -822,7 +831,8 @@ header {
     font-family: 'Roboto', sans-serif;
 }
 
-#modal input[type="submit"] {
+#modal input[type="submit"],
+#modalUpdate input[type="submit"] {
     background-color: #d0ae32;
     border: none;
 }
@@ -837,3 +847,55 @@ header {
 .send_btn {
     cursor: pointer;
 }
+
+
+/* admin */
+
+.admin_panel {
+    margin: 23px 0;
+}
+
+table {
+    font-size: 16px;
+    width: 100%;
+    margin-right: 80px;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+th {
+    background-color: #868686;
+    color: white;
+}
+
+td {
+    background-color: #d3d3d3;
+    color: black;
+}
+
+.main_btnAdmin {
+    line-height: 30px;
+    text-align: center;
+    border: 2px solid #0000008f;
+    margin: 13px 0px;
+}
+
+.main_btnAdmin-inner {
+    display: flex;
+    flex-direction: column;
+}
+
+#modalUpdate {
+    padding: 0px 27px;
+    width: 500px;
+    margin: 0 auto;
+    border: 2px solid #aeaeae;
+}
+
+#modalUpdate h4{
+    font-size: 20px;
+}
+
